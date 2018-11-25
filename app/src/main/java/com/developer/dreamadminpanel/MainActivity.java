@@ -74,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
 
                             if (openstatus.equals("مفتوح")){
                                 Toast.makeText(MainActivity.this,"هذا الحلم مفتوح من احد المستخدمين",Toast.LENGTH_LONG).show();
+
                             }else{
                                 Intent openDream = new Intent(MainActivity.this, Dream.class);
 
