@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">شاشة المفسر</string>
+    <string name="title_activity_login">تسجيل دخول</string>
+    <string name="prompt_email">بريد الكتروني</string>
+    <string name="prompt_password">كلمة السر</string>
+    <string name="action_sign_in">تسجيل الدخول</string>
+    <string name="action_sign_in_short">تسجيل دخول</string>
+    <string name="error_invalid_email">البريد الالكتروني غير صحيح</string>
+    <string name="error_invalid_password">كلمة السر قصيرة جدا</string>
+    <string name="error_incorrect_password">كلمة السر غير صحيحه</string>
+    <string name="error_field_required">هذا الحقل اساسي</string>
+    <string name="permission_rationale">لاكمال البريد الالكتروني . نحتاج تصريح لاستخدام جهات الاتصال</string>
+    <string name="dreamer">صاحب الحلم</string>
+    <string name="dream_details">تفاصيل الحلم</string>
+    <string name="add_your_name">"اسمك "</string>
+    <string name="add_your_dream_details">اضف تفاصيل الحلم</string>
+    <string name="send">ارسال</string>
+    <string name="add_dream">اضافة حلم</string>
+    <string name="my_profile">بياناتي</string>
+    <string name="log_out">تسجيل خروج</string>
+    <string name="title_activity_settings">بياناتي</string>
+    <string name="edit">تعديل</string>
+    <string name="translate">تفسير</string>
+    <string name="posting_time">التاريخ</string>
+    <string name="age">العمر</string>
+    <string name="marital_label">الحالة الاجتماعية</string>
+    <string name="gender_label">النوع</string>
+    <string name="translaation_label">تفسير الحلم</string>
+    <string name="mail_label">البريد الالكتروني</string>
+
+</resources>

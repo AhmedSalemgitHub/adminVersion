@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">تفسير الاحلام</string>
+<string name="title_activity_login">Sign in</string>
+
+<!-- Strings related to login -->
+<string name="prompt_email">Email</string>
+<string name="prompt_password">Password (optional)</string>
+<string name="action_sign_in">Sign in or register</string>
+<string name="action_sign_in_short">Sign in</string>
+<string name="error_invalid_email">This email address is invalid</string>
+<string name="error_invalid_password">This password is too short</string>
+<string name="error_incorrect_password">This password is incorrect</string>
+<string name="error_field_required">This field is required</string>
+<string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+<string name="dreamer">Dreamer</string>
+<string name="dream_details">Dream Details</string>
+<string name="add_your_name">add your name</string>
+<string name="add_your_dream_details">add your dream details</string>
+<string name="send">Send</string>
+<string name="add_dream">add dream</string>
+<string name="my_profile">My Profile</string>
+<string name="log_out">Log Out</string>
+<string name="title_activity_settings">Settings</string>
+<string name="edit">edit</string>
+    <string name="translate">translate</string>
+    <string name="posting_time">Date</string>
+    <string name="age">Age</string>
+    <string name="translaation_label">تفسير الحلم</string>
+    <string name="gender_label">Gender</string>
+    <string name="mail_label">e-mail</string>
+    <string name="marital_label">Marital Status</string>
+
+
+</resources>

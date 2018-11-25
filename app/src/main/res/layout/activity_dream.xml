@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/dreamPageBackGround"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textDirection="rtl"
+    tools:context=".Dream"
+    >
+
+    <android.support.constraint.ConstraintLayout
+
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="81dp">
+
+        <TextView
+            android:id="@+id/Dreamer_Name_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:padding="4dp"
+            android:elevation="4dp"
+            android:text="@string/dreamer"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/owner_edit_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="#fff"
+            android:padding="4dp"
+            android:elevation="4dp"
+            app:layout_constraintEnd_toStartOf="@+id/Dreamer_Name_label"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Ahmed Hassan Salem" />
+
+        <TextView
+            android:id="@+id/time_text_view_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:elevation="4dp"
+            android:padding="4dp"
+            android:text="@string/posting_time"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gender_label_text_view" />
+
+        <TextView
+            android:id="@+id/time_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="#fff"
+            android:elevation="4dp"
+            android:padding="4dp"
+            android:text="22-oct-2018"
+            app:layout_constraintEnd_toStartOf="@+id/time_text_view_label"
+            app:layout_constraintHorizontal_bias="0.949"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gender_text_view" />
+
+        <TextView
+            android:id="@+id/age_text_view_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:elevation="4dp"
+            android:padding="4dp"
+            android:text="@string/age"
+            app:layout_constraintEnd_toStartOf="@+id/gender_text_view"
+            app:layout_constraintTop_toBottomOf="@+id/owner_edit_view" />
+
+        <TextView
+            android:id="@+id/age_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:elevation="4dp"
+            android:padding="4dp"
+            android:layout_marginEnd="8dp"
+            android:background="#fff"
+            app:layout_constraintEnd_toStartOf="@+id/age_text_view_label"
+            app:layout_constraintTop_toBottomOf="@+id/owner_edit_view"
+            tools:text="36" />
+
+        <TextView
+            android:id="@+id/marital_status_text_view_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:elevation="4dp"
+            android:padding="4dp"
+            android:text="@string/marital_label"
+            app:layout_constraintEnd_toStartOf="@+id/age_text_view"
+            app:layout_constraintTop_toBottomOf="@+id/owner_edit_view" />
+
+        <TextView
+            android:id="@+id/marriage_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="#fff"
+            android:elevation="4dp"
+            android:padding="4dp"
+            app:layout_constraintEnd_toStartOf="@+id/marital_status_text_view_label"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/owner_edit_view"
+            tools:text="married" />
+
+        <TextView
+            android:id="@+id/gender_label_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:elevation="4dp"
+            android:padding="4dp"
+            android:text="@string/gender_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Dreamer_Name_label" />
+
+        <TextView
+            android:id="@+id/gender_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="#fff"
+            android:elevation="4dp"
+            android:padding="4dp"
+            app:layout_constraintEnd_toStartOf="@+id/gender_label_text_view"
+            app:layout_constraintTop_toBottomOf="@+id/owner_edit_view"
+            tools:text="male" />
+
+        <TextView
+            android:id="@+id/userMail_text_view"
+            android:layout_width="wrap_content"
+            android:maxWidth="240dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="#fff"
+            android:elevation="4dp"
+            android:padding="4dp"
+            app:layout_constraintEnd_toStartOf="@+id/userMail_label_text_view"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/time_text_view"
+            tools:text="aaaaaa@aaaaa.eee" />
+
+        <TextView
+            android:id="@+id/userMail_label_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:elevation="4dp"
+            android:padding="4dp"
+            android:text="@string/mail_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/time_text_view_label" />
+
+        <TextView
+            android:id="@+id/dream_details_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:elevation="4dp"
+            android:text="@string/dream_details"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/userMail_text_view" />
+
+
+        <TextView
+            android:id="@+id/dream_edit_view"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="#fff"
+            android:elevation="4dp"
+            android:padding="4dp"
+            android:enabled="false"
+            android:hint="@string/add_your_dream_details"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dream_details_label" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:elevation="4dp"
+            android:text="@string/translaation_label"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dream_edit_view" />
+
+        <EditText
+            android:id="@+id/reply_edit_view"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="#fff"
+            android:elevation="4dp"
+            android:padding="4dp"
+            android:inputType="textMultiLine"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/isreplied_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="yes" />
+
+
+        <Button
+            android:id="@+id/button_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/translate"
+            android:textAllCaps="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/reply_edit_view" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>
